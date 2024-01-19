@@ -89,9 +89,9 @@ function paragraphPopup() {
 		<main>\
 		<h1>Taliban Beliefs</h1>\
 		<a href='https://study.com/learn/lesson/taliban-history-formation-ideology.html#faqs' class='q'>\
-		<p><q>The Taliban is a political and religious power that believes in the strict interpretation and implementation of Islamic law. The Taliban wants to create an Islamic state.</q><i> -study.com</i>\
+		<p><q>The Taliban is a political and religious power that believes in the strict interpretation and implementation of Islamic law. The Taliban wants to create an Islamic state.,</q><i> -study.com</i>\
 		</a><br>\
-		The Taliban are a terrifying Islamic group. They believed that suicide bombings were a good military strategy. Improvised explosives were used too. They banned telivision, music, and movies, to keep everyone Islamic. If someone left Islam, the Taliban thought it was a death crime. We need to make sure they don't come back into power.</p>\
+		The Taliban are a terrifying Islamic group. They believe that suicide bombings are a good military strategy; improvised explosives are used too. Too keep people Islamic, they banned telivision, music, and movies. If someone leaves Islam, the Taliban thinks it is a death crime. We need to make sure they do not come back into power.</p>\
 		<ul>\
 			<li><small><a href='https://www.institute.global/insights/geopolitics-and-security/why-do-people-afghanistan-object-taliban-rule'>institute.global</a></small></li>\
 			<li><small><a href='https://www.britannica.com/topic/Taliban'>britannica.com</a></small></li>\
