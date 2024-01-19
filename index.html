@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html id="all">
+<head>
+<title>Taliban Beliefs</title>
+<link rel="stylesheet" href="index.css">
+<link rel="icon" type="image/x-icon" href="favicon.ico">
+<body>
+<div class="sidenav">
+<form action="javascript:void(0);" onsubmit="mailto();" class="sidenav">
+<label for="question"><h2>Ask a question</h2><br></label><textarea id="question"></textarea>
+<br><button type="submit" id="mail">Submit</button>
+</form>
+</div>
+<main class="main">
+<h1>Taliban Beliefs</h1>
+<p>The Taliban are a group of Islamic terrorists that try to control Afghanistan.</p>
+<div class="buttons">
+<button onclick="factPopup();" style="cursor:help;" id="facts">List of facts</button>
+<button onclick="factRand();" style="cursor:context-menu;" id="rand">Show random fact</button>
+<button onclick="paragraphPopup();" style="cursor:help;" id="para">Paragraph</button>
+</div>
+<ul>
+<marquee><img src="taliban.jpg"></marquee>
+<li><small><a href="https://www.institute.global/insights/geopolitics-and-security/why-do-people-afghanistan-object-taliban-rule">institute.global</a></small></li>
+<li><small><a href="https://www.britannica.com/topic/Taliban">britannica.com</a></small></li>
+<li><small><a href="https://study.com/learn/lesson/taliban-history-formation-ideology.html">study.com</a></small></li>
+<li><small><a href="https://www.hrw.org/news/2022/08/24/testimony-us-commission-international-religious-freedom">hrw.com</a></small></li>
+</ul>
+<br><br><br><br>
+<div id="cursor">
+<h2>Change your cursor</h2>
+<button onclick='document.getElementById("all").style.cursor = "alias";' class="alias">alias</button>
+<button onclick='document.getElementById("all").style.cursor = "all-scroll";' class="all-scroll">all-scroll</button>
+<button onclick='document.getElementById("all").style.cursor = "auto";' class="auto">auto</button>
+<button onclick='document.getElementById("all").style.cursor = "cell";' class="cell">cell</button>
+<button onclick='document.getElementById("all").style.cursor = "context-menu";' class="context-menu">context-menu</button>
+<button onclick='document.getElementById("all").style.cursor = "col-resize";' class="col-resize">col-resize</button>
+<button onclick='document.getElementById("all").style.cursor = "copy";' class="copy">copy</button>
+<button onclick='document.getElementById("all").style.cursor = "crosshair";' class="crosshair">crosshair</button>
+<button onclick='document.getElementById("all").style.cursor = "default";' class="default">default</button>
+<button onclick='document.getElementById("all").style.cursor = "e-resize";' class="e-resize">e-resize</button>
+<button onclick='document.getElementById("all").style.cursor = "ew-resize";' class="ew-resize">ew-resize</button>
+<button onclick='document.getElementById("all").style.cursor = "grab";' class="grab">grab</button>
+<button onclick='document.getElementById("all").style.cursor = "grabbing";' class="grabbing">grabbing</button>
+<button onclick='document.getElementById("all").style.cursor = "help";' class="help">help</button>
+<button onclick='document.getElementById("all").style.cursor = "move";' class="move">move</button>
+<button onclick='document.getElementById("all").style.cursor = "n-resize";' class="n-resize">n-resize</button>
+<button onclick='document.getElementById("all").style.cursor = "ne-resize";' class="ne-resize">ne-resize</button>
+<button onclick='document.getElementById("all").style.cursor = "nesw-resize";' class="nesw-resize">nesw-resize</button>
+<button onclick='document.getElementById("all").style.cursor = "ns-resize";' class="ns-resize">ns-resize</button>
+<button onclick='document.getElementById("all").style.cursor = "nw-resize";' class="nw-resize">nw-resize</button>
+<button onclick='document.getElementById("all").style.cursor = "nwse-resize";' class="nwse-resize">nwse-resize</button>
+<button onclick='document.getElementById("all").style.cursor = "no-drop";' class="no-drop">no-drop</button>
+<button onclick='document.getElementById("all").style.cursor = "none";' class="none">none</button>
+<button onclick='document.getElementById("all").style.cursor = "not-allowed";' class="not-allowed">not-allowed</button>
+<button onclick='document.getElementById("all").style.cursor = "pointer";' class="pointer">pointer</button>
+<button onclick='document.getElementById("all").style.cursor = "progress";' class="progress">progress</button>
+<button onclick='document.getElementById("all").style.cursor = "row-resize";' class="row-resize">row-resize</button>
+<button onclick='document.getElementById("all").style.cursor = "s-resize";' class="s-resize">s-resize</button>
+<button onclick='document.getElementById("all").style.cursor = "se-resize";' class="se-resize">se-resize</button>
+<button onclick='document.getElementById("all").style.cursor = "sw-resize";' class="sw-resize">sw-resize</button>
+<button onclick='document.getElementById("all").style.cursor = "text";' class="text">text</button>
+<button onclick='document.getElementById("all").style.cursor = "w-resize";' class="w-resize">w-resize</button>
+<button onclick='document.getElementById("all").style.cursor = "wait";' class="wait">wait</button>
+<button onclick='document.getElementById("all").style.cursor = "zoom-in";' class="zoom-in">zoom-in</button>
+<button onclick='document.getElementById("all").style.cursor = "zoom-out";' class="zoom-out">zoom-out</button>
+</div>
+</main>
+<script src="index.js"></script>
+</body>
+</html>
